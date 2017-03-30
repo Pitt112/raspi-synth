@@ -9,13 +9,9 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>raspi-synth-gpio-service</artifactId>
+  <artifactId>raspi-synth-shared</artifactId>
 
   <dependencies>
-    <dependency>
-      <groupId>com.pi4j</groupId>
-      <artifactId>pi4j-core</artifactId>
-    </dependency>
 
     <dependency>
       <groupId>com.carrotsearch</groupId>
@@ -31,10 +27,12 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
+
   </dependencies>
 
   <build>
     <plugins>
+
       <plugin>
         <groupId>org.codehaus.gmavenplus</groupId>
         <artifactId>gmavenplus-plugin</artifactId>

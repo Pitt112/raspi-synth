@@ -9,32 +9,20 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>raspi-synth-gpio-service</artifactId>
+  <artifactId>raspi-synth-ui</artifactId>
 
   <dependencies>
-    <dependency>
-      <groupId>com.pi4j</groupId>
-      <artifactId>pi4j-core</artifactId>
-    </dependency>
 
     <dependency>
-      <groupId>com.carrotsearch</groupId>
-      <artifactId>hppc</artifactId>
+      <groupId>de.moonset.engine</groupId>
+      <artifactId>raspi-synth-shared</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>org.codehaus.groovy</groupId>
-      <artifactId>groovy-all</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-    </dependency>
   </dependencies>
 
   <build>
     <plugins>
+
       <plugin>
         <groupId>org.codehaus.gmavenplus</groupId>
         <artifactId>gmavenplus-plugin</artifactId>

@@ -11,6 +11,8 @@
 
   <modules>
     <module>raspi-synth-gpio-service</module>
+    <module>raspi-synth-shared</module>
+    <module>raspi-synth-ui</module>
   </modules>
 
   <developers>
@@ -43,6 +45,20 @@
         <artifactId>raspi-synth-gpio-service</artifactId>
         <version>${project.version}</version>
       </dependency>
+
+
+      <dependency>
+        <groupId>de.moonset.engine</groupId>
+        <artifactId>raspi-synth-shared</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>de.moonset.engine</groupId>
+        <artifactId>raspi-synth-ui</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
 
       <!-- ######################################## -->
       <!-- # Logging                              # -->
@@ -111,6 +127,12 @@
       <!-- ######################################## -->
       <!-- # Testing                              # -->
       <!-- ######################################## -->
+
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+      </dependency>
 
       <dependency>
         <groupId>org.spockframework</groupId>
